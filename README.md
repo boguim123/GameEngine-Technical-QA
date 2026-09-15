@@ -27,7 +27,7 @@ The automated test suite identified a calculation bug where damage exceeding the
 ### 2. Root Cause Analysis (Visual Studio Debugging)
 In-depth inspection using execution breakpoints and variable evaluation to trace how the `Armor` variable reached negative values without carrying remaining damage to `Health`.
 
-![Breakpoint Debugging](02-breakpoint-debug.png)
+![Breakpoint Debugging](02-breakpoint-debug.png..png)
 
 ---
 
