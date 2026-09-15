@@ -20,22 +20,21 @@ The automated test suite identified a calculation bug where damage exceeding the
 * **Expected Result:** 10 HP
 * **Actual Result:** 50 HP
 
-![Test Failure](./01-teste-falhando.png)
+![Test Failure](01-teste-falhando.png)
 
 ---
 
 ### 2. Root Cause Analysis (Visual Studio Debugging)
 In-depth inspection using execution breakpoints and variable evaluation to trace how the `Armor` variable reached negative values without carrying remaining damage to `Health`.
 
-![Breakpoint Debugging](./02-breakpoint-debug.png)
+![Breakpoint Debugging](02-breakpoint-debug.png)
 
 ---
 
 ### 3. Verification & Regression Testing (Bug Fixed)
 Refactored the `TakeDamage` logic to handle armor depletion correctly. Re-executed the test suite, achieving a **100% Green / Passed** status.
 
-![Tests Passed](./03-testes-passaram.png)
-
+![Tests Passed](03-testes-passaram.png)
 ---
 
 ## 💻 Code Snippet: Refactored Combat Logic
