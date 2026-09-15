@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GameEngine.Services/GameEngine.Services.csproj" />
+  <Project Path="GameEngine.Tests/GameEngine.Tests.csproj" Id="f878e566-93b4-4802-9c6e-6edadb847257" />
+</Solution>
